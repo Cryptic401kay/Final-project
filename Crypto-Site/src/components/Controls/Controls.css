@@ -1,0 +1,78 @@
+.controls {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filter-group label {
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.filter-group select {
+  padding: 0.75rem 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  color-scheme: dark;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.filter-group select option {
+  background: #010203;
+  color: #fff;
+}
+
+.filter-group select:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #add8e6;
+  box-shadow: 0 0 0 3px rgba(173, 216, 230, 0.2);
+}
+
+.view-toggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view-toggle button {
+  padding: 0.75rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.view-toggle button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.view-toggle button.active {
+  background: #add8e6;
+  color: #010203;
+  border-color: transparent;
+  box-shadow: 0 4px 15px rgba(173, 216, 230, 0.3);
+}

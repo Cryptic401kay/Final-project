@@ -1,5 +1,6 @@
 import { Link } from "react-router";
-import { formatPrice, formatMarketCap } from "../utils/formatter";
+import { formatPrice, formatMarketCap } from "../../utils/formatter";
+import "./CryptoCard.css";
 
 export const CryptoCard = ({ crypto }) => {
   return (
@@ -44,3 +45,5 @@ export const CryptoCard = ({ crypto }) => {
     </Link>
   );
 };
+
+export default CryptoCard;
