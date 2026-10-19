@@ -8,6 +8,8 @@ This project contains a free active api from CoinGecko.com that is limited but i
 
 ## Links
 
+For users that wish to use the same api but with a different interface use this link:
+
 CoinGecko API
 
 - [API Page](https://docs.coingecko.com/docs/keyless-public-api)
