@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from "react-router";
+import { HashRouter, Routes, Route, useLocation } from "react-router";
 import { useEffect, useMemo, useState } from "react";
 import { fetchCryptos } from "../../utils/coinGeckoAPI";
 import { CoinDetail } from "../CoinDetail/CoinDetail";
@@ -99,9 +99,9 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppContent />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
