@@ -1,4 +1,34 @@
-# React + Vite
+## Final Project (Crypto Informer)
+
+This project is compiled of HTML, CSS, JavaScript and React.js. This app is designed to be used as a research only site for crypto currency investors, it does not include the ability to purchase crypto at the moment. Due to this being a free open API based project, data limits are in affect and only a small amount of crypto currencies are posted in the free version. But this project does feature the ability to sort the info in various ways while presenting it in either grid or list mode, has a active search bar, can present specific pages for one crypto at a time showing its current worth, and a 7 day chart of its previous prices amongst other info.
+
+## About the project
+
+This project contains a free active api from CoinGecko.com that is limited but if future developers wish to add more features and endpoints with unlimited data, CoinGecko does allow users to pay for the full API service on there website.
+
+## Links
+
+For users that wish to use the same api but with a different interface use this link:
+
+CoinGecko API
+
+- [API Page](https://docs.coingecko.com/docs/keyless-public-api)
+
+## Deployment
+
+This current webpage is deployed in GitHub Pages.
+
+- [Deployment Link](https://github.com/Cryptic401kay/Final-project)
+
+--Note to see the site in VSCode use "npm run dev" while set in the "Crypto-Site" folder NOT the "Final Project" Folder.
+
+## Project Pitch Video
+
+Check the video below for a detailed presentation of this project and all of its capabilities along with the challenges I faced during development.
+
+- [Deployment Link](https://www.loom.com/share/45e36bdcca79431395e85bfb0d98295d)
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
