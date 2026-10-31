@@ -2,8 +2,10 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <p>Data Provided by CoinGecko API *** Updated every 5 minutes</p>
+    <footer className="site-footer">
+      <p className="site-footer__text">
+        Data Provided by CoinGecko API *** Updated every 5 minutes
+      </p>
     </footer>
   );
 }

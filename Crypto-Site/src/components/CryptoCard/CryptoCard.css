@@ -39,40 +39,40 @@
   opacity: 1;
 }
 
-.crypto-header {
+.crypto-card__header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 1rem;
 }
 
-.crypto-info {
+.crypto-card__info {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.crypto-info img {
+.crypto-card__image {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.crypto-info h3 {
+.crypto-card__name {
   font-size: 1.25rem;
   color: #e0e0e0;
   margin-bottom: 0.25rem;
   font-weight: 600;
 }
 
-.crypto-info .symbol {
+.crypto-card__symbol {
   color: #9ca3af;
   font-size: 0.85rem;
   font-weight: 600;
 }
 
-.crypto-info .rank {
+.crypto-card__rank {
   display: inline-block;
   background: #add8e6;
   color: #010203;
@@ -84,18 +84,18 @@
   box-shadow: 0 4px 10px rgba(173, 216, 230, 0.3);
 }
 
-.crypto-price {
+.crypto-card__price {
   margin: 1.5rem 0;
 }
 
-.crypto-price .price {
+.crypto-card__price-value {
   font-size: 1.75rem;
   font-weight: 700;
   color: #fff;
   margin-bottom: 0.5rem;
 }
 
-.crypto-price .change {
+.crypto-card__change {
   font-size: 1.1rem;
   font-weight: 600;
   padding: 0.5rem 1rem;
@@ -103,19 +103,19 @@
   display: inline-block;
 }
 
-.crypto-price .change.positive {
+.crypto-card__change--positive {
   background: rgba(46, 213, 115, 0.15);
   color: #2ed573;
   border: 1px solid rgba(46, 213, 115, 0.3);
 }
 
-.crypto-price .change.negative {
+.crypto-card__change--negative {
   background: rgba(255, 71, 87, 0.15);
   color: #ff4757;
   border: 1px solid rgba(255, 71, 87, 0.3);
 }
 
-.crypto-stats {
+.crypto-card__stats {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -123,20 +123,20 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.stat {
+.crypto-card__stat {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
 }
 
-.stat-label {
+.crypto-card__stat-label {
   font-size: 0.75rem;
   color: #9ca3af;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.stat-value {
+.crypto-card__stat-value {
   font-size: 0.95rem;
   color: #e0e0e0;
   font-weight: 700;

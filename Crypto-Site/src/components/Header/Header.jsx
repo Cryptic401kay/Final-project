@@ -2,17 +2,19 @@ import "./Header.css";
 
 function Header({ searchQuery, onSearchChange }) {
   return (
-    <header className="header">
-      <div className="header-content">
-        <div className="logo-section">
-          <h1>💎 Crypto Informer</h1>
-          <p>Get Updated Cryptocurrency Information here</p>
+    <header className="site-header">
+      <div className="site-header__content">
+        <div>
+          <h1 className="site-header__title">💎 Crypto Informer</h1>
+          <p className="site-header__tagline">
+            Get Updated Cryptocurrency Information here
+          </p>
         </div>
-        <div className="search-section">
+        <div className="site-header__search">
           <input
             type="text"
             placeholder="Search cryptocurrencies..."
-            className="search-input"
+            className="site-header__search-input"
             onChange={(e) => onSearchChange(e.target.value)}
             value={searchQuery}
           />

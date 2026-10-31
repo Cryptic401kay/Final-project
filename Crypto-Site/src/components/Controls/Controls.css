@@ -1,4 +1,4 @@
-.controls {
+.market-controls {
   max-width: 1400px;
   margin: 2rem auto;
   padding: 0 2rem;
@@ -9,18 +9,18 @@
   gap: 1rem;
 }
 
-.filter-group {
+.market-controls__filter {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.filter-group label {
+.market-controls__label {
   color: #e0e0e0;
   font-weight: 600;
 }
 
-.filter-group select {
+.market-controls__sort-select {
   padding: 0.75rem 1.25rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
@@ -33,27 +33,27 @@
   backdrop-filter: blur(10px);
 }
 
-.filter-group select option {
+.market-controls__sort-select option {
   background: #010203;
   color: #fff;
 }
 
-.filter-group select:hover {
+.market-controls__sort-select:hover {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.filter-group select:focus {
+.market-controls__sort-select:focus {
   outline: none;
   border-color: #add8e6;
   box-shadow: 0 0 0 3px rgba(173, 216, 230, 0.2);
 }
 
-.view-toggle {
+.market-controls__view-toggle {
   display: flex;
   gap: 0.5rem;
 }
 
-.view-toggle button {
+.market-controls__view-button {
   padding: 0.75rem 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
@@ -65,12 +65,12 @@
   backdrop-filter: blur(10px);
 }
 
-.view-toggle button:hover {
+.market-controls__view-button:hover {
   background: rgba(255, 255, 255, 0.1);
   border-color: rgba(255, 255, 255, 0.2);
 }
 
-.view-toggle button.active {
+.market-controls__view-button--active {
   background: #add8e6;
   color: #010203;
   border-color: transparent;

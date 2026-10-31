@@ -18,6 +18,10 @@ CoinGecko API
 
 This current webpage is deployed in GitHub Pages.
 
+-[Deployment Link](https://cryptic401kay.github.io/Final-project/)
+
+This link takes you to the repository to see the full code.
+
 - [Deployment Link](https://github.com/Cryptic401kay/Final-project)
 
 --Note to see the site in VSCode use "npm run dev" while set in the "Crypto-Site" folder NOT the "Final Project" Folder.

@@ -5,12 +5,12 @@ export const Home = ({ isLoading, filteredList, viewMode }) => {
   return (
     <div className="app">
       {isLoading ? (
-        <div className="loading">
-          <div className="spinner" />
-          <p>Loading cryptocurrencies...</p>
+        <div className="loading-state">
+          <div className="loading-state__spinner" />
+          <p className="loading-state__text">Loading cryptocurrencies...</p>
         </div>
       ) : (
-        <div className={`crypto-container ${viewMode}`}>
+        <div className={`coin-list coin-list--${viewMode}`}>
           {filteredList.map((crypto, key) => (
             <CryptoCard crypto={crypto} key={key} />
           ))}
