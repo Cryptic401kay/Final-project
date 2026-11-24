@@ -1,0 +1,128 @@
+@media (max-width: 768px) {
+  .site-header__content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .site-header__search {
+    max-width: 100%;
+  }
+
+  .site-header__title {
+    font-size: 2rem;
+  }
+
+  .market-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .market-controls__filter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .market-controls__sort-select {
+    width: 100%;
+  }
+
+  .market-controls__view-toggle {
+    justify-content: center;
+  }
+
+  .coin-list--grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .coin-list--grid > a {
+    min-width: 0;
+  }
+
+  .coin-detail__header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 2rem 0;
+  }
+
+  .coin-detail__name {
+    font-size: 1.5rem;
+  }
+
+  .coin-detail__price-value {
+    font-size: 2rem;
+  }
+
+  .coin-detail__stats {
+    grid-template-columns: 1fr;
+    display: block;
+  }
+
+  .coin-detail__stat {
+    margin-bottom: 1.5rem;
+  }
+
+  .coin-detail__stat-value {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .site-header__content {
+    padding: 10px;
+  }
+
+  .site-header__title {
+    font-size: 1.5rem;
+  }
+
+  .site-header__search-input {
+    font-size: 0.9rem;
+  }
+
+  .market-controls__view-button {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .coin-detail__name {
+    font-size: 1.2rem;
+  }
+
+  .coin-detail__price-value {
+    font-size: 1.5rem;
+  }
+
+  .coin-list {
+    width: 100%;
+    max-width: 100%;
+    padding-inline: 2rem;
+    box-sizing: border-box;
+  }
+
+  .coin-list--grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .coin-list--grid > a {
+    display: block;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .coin-list--grid .crypto-card {
+    width: 80%;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  body,
+  #root,
+  .site-layout,
+  .site-content,
+  .app {
+    width: 100%;
+    min-width: 0;
+  }
+}
